@@ -1,0 +1,16 @@
+monetary-unit: ""
+add-op-at-rank: false
+default-money: 0
+max-money: 100000
+allow-pay-offline: true
+default-lang: def
+auto-save-interval: 30
+provider: yaml
+check-update: true
+update-host: false
+provider-settings:
+  host: 127.0.0.1
+  port: 3306
+  user: onebone
+  password: hello_world
+  db: economyapi

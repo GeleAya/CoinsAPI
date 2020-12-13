@@ -1,0 +1,37 @@
+name: CoinsAPI
+main: GeleAya\coinsapi\CoinsAPI
+api:
+- 3.0.0
+version: 5.7.2
+author: GeleAya and onebone
+permissions:
+  coinsapi.*:
+    default: op
+    description: 
+    children:
+      coins.*:
+        default: op
+        description: 
+        children:
+          coins.setcoins:
+            default: op
+            description: 
+          coins.coins:
+            description:
+            default: true
+          coins.givecoins:
+            description: 
+            default: op
+          coins.paycoins:
+            description: 
+            default: true
+          coins.seecoins:
+            description: 
+            default: true
+          coins.topcoins:
+            description: 
+            default: true
+          coins.takecoins:
+            description: 
+            default: op
+...

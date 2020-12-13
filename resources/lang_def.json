@@ -1,0 +1,57 @@
+{
+    "language": "en",
+	"commands": {
+		"coins": {
+			"usage": "/coins",
+			"description": ""
+		},
+		"topcoins": {
+			"usage": "/topcoins [page]",
+			"description": ""
+		},
+		"setcoins": {
+			"usage": "/setcoins <player> <amount>",
+			"description": ""
+		},
+		"seecoins": {
+			"usage": "/seecoins <player>",
+			"description": ""
+		},
+		"givecoins": {
+			"usage": "/givecoins <player> <amount>",
+			"description": ""
+		},
+		"takecoins": {
+			"usage": "/takecoins <player> <amount>",
+			"description": ""
+		},
+		"paycoins": {
+			"usage": "/paycoins <player> <amount>",
+			"description": ""
+		}
+	},
+    "request-cancelled": "",
+    "player-not-connected": "§7[§eE§7] §6%1 §fn'est pas connecter.",
+    "player-never-connected": "§7[§eE§7] §6%1§f n'a jamais été connecté.",
+    "topmoney-tag": "§7- §6TopCoins§7 -",
+    "topmoney-format": "§7[§6%1§7]§f - §6 %2 §f->§6 %3 ",
+    "pay-failed": "§7[§eE§7] §fErreur lors du payement",
+    "pay-success": "§7[§eE§7] §fVous avez envoyé §6%MONETARY_UNIT%%1  §fà§6 %2§f.",
+    "coins-paid": "§7[§eE§7] §6%1 §fVous à envoyé§6 %MONETARY_UNIT%%2 §f.",
+    "takecoins-must-be-number": "§7[§eE§7] §fLe montant doit être numérique",
+    "takecoins-invalid-number": "§7[§eE§7] §fNombre Invalide",
+    "takecoins-player-lack-of-coins": "§7[§eE§7] §6%1 n'a pas §6%MONETARY_UNIT%%2 §f, §6%1 §fa §6%MONETARY_UNIT%%3 ",
+    "takecoins-coins-taken": "§7[§eE§7] §6%MONETARY_UNIT%%1  §fon était retiré de votre compte",
+    "takecoins-took-coins": "§7[§eE§7] §fVous avez pris §6%MONETARY_UNIT%%2 §f de §6%1§f.",
+    "takecoins-failed": "§7[§eE§7] §fVous n'avez pas réussi à prendre des coins",
+    "givecoins-must-be-number": "§7[§eE§7] §fLe montant doit être numérique",
+    "givecoins-invalid-number": "§7[§eE§7] §fNombre Invalide",
+    "givecoins-coins-given": "§7[§eE§7] §fVous avez reçus §6 %MONETARY_UNIT%%1 ",
+    "givecoins-gave-coins": "§7[§eE§7] §fVous avez reçus §6%MONETARY_UNIT%%1 §f de§6 %2§f.",
+    "seecoins-seecoins": "§7[§eE§7] §6%1 §fa §6%2 ",
+    "setcoins-setcoins": "§7[§eE§7] §fVous avez set les coins de §6%1§f à §6%MONETARY_UNIT%%2 ",
+    "setcoins-set": "§7[§eE§7] §fVos coins sont mis à §6%MONETARY_UNIT%%1 ",
+    "setcoins-failed": "Erreur",
+    "setcoins-invalid-number": "§7[§eE§7] §6%MONETARY_UNIT%%1 §fn'est pas un nombre valide",
+    "coins-coins": "§7[§eE§7] §fVos coins §7: §6%MONETARY_UNIT%%1 "
+}
